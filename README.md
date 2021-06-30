@@ -18,7 +18,7 @@ developer tools, and keep a record of best-practices I've learnt. So it is a wor
 Others can use it to check out the Bazel way of doing things and use parts
 as a reference implementation.
 
-Rather than the typical To-Do list, this project's code uses the contrived scenario of a book shop and reading catalogue website called *Antilibrary*. 📗📕📒📚
+Rather than the typical To-Do list, this project's code uses the contrived scenario of a book shop and reading catalogue website called *Antilibrary*. ðððð
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ Adam Jacob, former CTO of [Chef](https://www.chef.io/)
 
 ### *Golang* Support
 
-There's Golang code in [`/cli`](/cli). It implements a simple CLI for the common 'Blind Date With a 📖' product.
+There's Golang code in [`/cli`](/cli). It implements a simple CLI for the common 'Blind Date With a ð' product.
 
 ##### Dependency Management
 
@@ -130,4 +130,5 @@ This project is using [Buildbuddy.IO](https://buildbuddy.io/). Every build run l
 ### Linting
 
 [thundergolfer/bazel-linting-system](https://github.com/thundergolfer/bazel-linting-system) is used. [`./tools/linting/lint.sh`](tools/linting/lint.sh) will lint all source-code in the repo and [`./tools/linting/lint_bzl_files.sh`](tools/linting/lint_bzl_files.sh) will lint all Bazel files.
+
 
