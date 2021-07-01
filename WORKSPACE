@@ -274,7 +274,7 @@ http_archive(
 linting_system_version = "7f8b336f4e9dbfcfd4fe6a1406047e72abc059aa"
 
 # Source code linting system
-# ⚠️ Currently in ALPHA as at 2020/12/12
+# â ï¸ Currently in ALPHA as at 2020/12/12
 http_archive(
     name = "linting_system",
     sha256 = "fc9b5c78aff9836b5c7abe6ed24f9ad549fbec642bb43e27584fcf416991f786",
@@ -291,3 +291,5 @@ load("@linting_system//repositories:go_repositories.bzl", "go_deps")
 go_deps()
 
 register_toolchains("//tools/build/bazel/py_toolchain:py_toolchain")
+
+workspace
