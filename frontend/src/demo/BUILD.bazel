@@ -34,3 +34,5 @@ ts_devserver(
         "@npm//react-dom:react-dom__umd",
     ],
 )
+
+deeply nested build file
